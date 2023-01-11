@@ -2,11 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom'
 import { FaRegHandPointUp, FaAccusoft,FaBeer,house } from 'react-icons/fa'
 const Sidebar = ({children}) => {
-    const menulist = [{
-            path: "/dashboard",
-            name: "dashboard",
-            icon: < FaRegHandPointUp / >
-        },
+    const menulist = [
         {
             path: "/about",
             name: "About",
