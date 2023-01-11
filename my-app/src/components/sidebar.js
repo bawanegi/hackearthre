@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import { FaRegHandPointUp, FaAccusoft,FaBars } from 'react-icons/fa'
+import { FaRegHandPointUp, FaAccusoft,FaBeer,house } from 'react-icons/fa'
 const Sidebar = ({children}) => {
     const menulist = [{
-            path: "/",
+            path: "/dashboard",
             name: "dashboard",
             icon: < FaRegHandPointUp / >
         },
@@ -19,7 +19,7 @@ const Sidebar = ({children}) => {
           <div className="top_section">
            <h1 className="logo"> logo</h1>
            <div className="bars">
-            <FaBars/>
+            <house/>
            </div>
           </div>
           {
